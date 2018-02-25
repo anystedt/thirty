@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="se.umu.id14ant.thirty.controller.PlayActivity">
+
+    <TextView
+        android:id="@+id/current_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_round"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/help_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/dice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white1"/>
+
+        <ImageButton
+            android:id="@+id/dice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white2" />
+
+        <ImageButton
+            android:id="@+id/dice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white3" />
+
+        <ImageButton
+            android:id="@+id/dice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white4" />
+
+        <ImageButton
+            android:id="@+id/dice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white5" />
+
+        <ImageButton
+            android:id="@+id/dice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:onClick="saveDie"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/white6" />
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/throws_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/throws_left"/>
+        <Button
+            android:id="@+id/throw_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="throwDices"
+            android:text="@string/throw_button" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="getScore"
+        android:drawablePadding="10dp"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/arrow_right"
+        android:text="@string/score" />
+</RelativeLayout>
+
+
+
+</LinearLayout>
+
+

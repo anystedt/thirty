@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Thirty</string>
+    <string name="start">Welcome to Thirty!</string>
+    <string name="start_button">New game</string>
+
+    <string name="current_round">Round %1$d</string>
+    <string name="help_text">Mark the dices you want to keep before throwing</string>
+    <string name="throws_left">Throws left: %1$d</string>
+    <string name="throw_button">Throw</string>
+    <string name="score">Get score</string>
+    <string name="no_throws"> No throws left!</string>
+
+    <string-array name="score_array">
+        <item>Select scoring method...</item>
+        <item>Low</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string name="show_score">%1$d points</string>
+    <string name="choose_method_toast">You must choose a scoring method!</string>
+    <string name="next_round">Next round</string>
+    <string name="get_result">Get result</string>
+
+
+    <string name="result_title">Your score</string>
+    <string name="result_round">Round %1$d</string>
+    <string name="result_total">Total score</string>
+
+</resources>
